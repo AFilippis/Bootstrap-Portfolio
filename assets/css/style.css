@@ -1,6 +1,7 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(../images/spiration-dark.png)
+    background-image: url(../images/spiration-dark.png);
+    color: #777777;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -8,11 +9,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Fixing colors: */
+header {
+    border-bottom: 2px solid #cccccc;
+}
+.contentWrapper {
+    width: 960px;
+}
 .navbar-brand {
     background-color: #4aaaa5;
 }
 
+.contentHead {
+    color:#4aaaa5;
+}
+
+.contentWrapper-sm {
+    position: relative;
+}
+
+.imgTxt {
+    position:absolute;
+    top: 70%;
+    left: 0;
+    width: inherit;
+    background-color: #4aaaa5;
+    color: white;
+}
+section .contentWrapper {
+    margin-top: 48px;
+    margin-bottom: 116.5px;
+}
 #footer {
     background-color: #666666;
-    border-top: medium solid #4aaaa5;
+    border-top: 8px solid #4aaaa5;
 }
