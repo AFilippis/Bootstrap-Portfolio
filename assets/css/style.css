@@ -23,6 +23,16 @@ header {
     color:#4aaaa5;
 }
 
+section .contentWrapper {
+    margin-top: 48px;
+    margin-bottom: 116.5px;
+}
+#footer {
+    background-color: #666666;
+    border-top: 8px solid #4aaaa5;
+}
+
+/* portfolio stuffs */
 .contentWrapper-sm {
     position: relative;
 }
@@ -35,11 +45,13 @@ header {
     background-color: #4aaaa5;
     color: white;
 }
-section .contentWrapper {
-    margin-top: 48px;
-    margin-bottom: 116.5px;
+
+/* contact stuffs */
+
+.btn-primary{
+    background-color: #4aaaa5;
 }
-#footer {
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+
+.btn-primary:hover {
+    background-color: #666;
 }
