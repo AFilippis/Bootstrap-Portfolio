@@ -55,3 +55,19 @@ section .contentWrapper {
 .btn-primary:hover {
     background-color: #666;
 }
+
+/* experiments */
+
+.imgTxt.fadeIn {
+   opacity:.8;
+}
+
+.imgTxt.fadeIn:hover {
+    animation-name: fade;
+    animation-duration: 500ms;
+}
+
+@keyframes fade {
+    from {opacity:.8;}
+    to {opacity:1;}
+}
