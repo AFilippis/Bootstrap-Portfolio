@@ -1,73 +1,102 @@
-body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background-image: url(../images/spiration-dark.png);
-    color: #777777;
+body
+{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  color: #777;
+ background-image: url(../images/spiration-dark.png); 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 /* Fixing colors: */
-header {
-    border-bottom: 2px solid #cccccc;
+header
+{
+    border-bottom: 2px solid #ccc;
 }
-.contentWrapper {
+.contentWrapper
+{
     width: 960px;
 }
-.navbar-brand {
+.navbar-brand
+{
     background-color: #4aaaa5;
 }
 
-.contentHead {
-    color:#4aaaa5;
+.contentHead
+{
+    color: #4aaaa5;
 }
 
-section .contentWrapper {
-    margin-top: 48px;
-    margin-bottom: 116.5px;
+section .contentWrapper
+{
+    margin-top: 48px;  margin-bottom: 116.5px;
 }
-#footer {
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+
+#footer
+{ border-top: 8px solid #4aaaa5;
+    background-color: #666; 
 }
 
 /* portfolio stuffs */
-.contentWrapper-sm {
+.contentWrapper-sm
+{
     position: relative;
 }
 
-.imgTxt {
-    position:absolute;
-    top: 70%;
-    left: 0;
-    width: inherit;
-    background-color: #4aaaa5;
+.imgTxt
+{
+    position: absolute; 
+    top: 70%; 
+    left: 0;  
+    width: inherit;  
     color: white;
+    background-color: #4aaaa5; 
+}
+
+.projectImg 
+{
+    height: 256px;
+    width: 256px;
 }
 
 /* contact stuffs */
 
-.btn-primary{
+.btn-primary
+{
     background-color: #4aaaa5;
 }
 
-.btn-primary:hover {
+.btn-primary:hover
+{
     background-color: #666;
 }
 
 /* experiments */
-
-.imgTxt.fadeIn {
-   opacity:.8;
+/* 
+.imgTxt.fadeIn
+{
+    opacity: .8;
 }
 
-.imgTxt.fadeIn:hover {
-    animation-name: fade;
-    animation-duration: 500ms;
+.imgTxt.fadeIn:hover
+{
+    animation-name: fade;  animation-duration: 500ms;
 }
 
-@keyframes fade {
-    from {opacity:.8;}
-    to {opacity:1;}
-}
+@keyframes fade
+{
+    from
+    {
+        opacity: .8;
+    }
+    to
+    {
+        opacity: 1;
+    }
+} */
